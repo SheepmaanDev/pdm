@@ -27,18 +27,18 @@ const Contact = () => {
                             </select>
                         </div>
                         <div className='contact__container__right__form__mail'>
-                            <label className='contact__container__right__form__mail__label' htmlFor='mail'>Adresse e-mail</label>
-                            <input className='contact__container__right__form__mail__input' type='email' name='mail' id='mail' placeholder='your@email.com'/>
-                        </div>
-                        <div className='contact__container__right__form__message'>
-                            <label className='contact__container__right__form__message__label' htmlFor='message'>Message</label>
-                            <textarea className='contact__container__right__form__message__text' name='message' id='message' placeholder='Comment pouvons nous vous aidez ?' rows='5'></textarea>
-                        </div>
-                        <div className='contact__container__right__form__condition'>
-                            <input className='contact__container__right__form__condition__input' type='checkbox' name='' id='' />
-                            <p className='contact__container__right__form__condition__para'>J'accepte les conditions générales et la politique de confidentialité</p>
-                        </div>
-                        <button className='contact__container__right__form__btn'>Envoyer</button>
+                                <label className='contact__container__right__form__mail__label' htmlFor='mail'>Adresse e-mail</label>
+                                <input className='contact__container__right__form__mail__input' type='email' name='mail' id='mail' placeholder='your@email.com'/>
+                            </div>
+                            <div className='contact__container__right__form__message'>
+                                <label className='contact__container__right__form__message__label' htmlFor='message'>Message</label>
+                                <textarea className='contact__container__right__form__message__text' name='message' id='message' placeholder='Comment pouvons nous vous aidez ?' rows='5'></textarea>
+                            </div>
+                            <div className='contact__container__right__form__condition'>
+                                <input className='contact__container__right__form__condition__input' type='checkbox' name='' id='' />
+                                <p className='contact__container__right__form__condition__para'>J'accepte les conditions générales et la politique de confidentialité</p>
+                                <button className='contact__container__right__form__condition__btn'>Envoyer</button>
+                            </div>
                     </form>
                 </section>
             </div>

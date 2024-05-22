@@ -6,11 +6,9 @@ import './carousel.sass'
 
 const Carousel = ({ items }) => {
     const [currentIndex, setCurrentIndex] = useState(0)
-
     const prevSlide = () => {
         setCurrentIndex(currentIndex === 0 ? items.length - 1 : currentIndex - 1);
     }
-
     const nextSlide = () => {
         setCurrentIndex(currentIndex === items.length - 1 ? 0 : currentIndex + 1);
     }
