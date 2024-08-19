@@ -5,7 +5,7 @@ import './contact.sass'
 const Contact = () => {
     return (
         <div className='contact'>
-            <h2 className='contact__title'>Informations utiles</h2>
+            <h2 className='contact__title'>Nous contacter</h2>
             <div className='contact__container'>
                 <section className='contact__container__left'>
                     {/* <h3 className='contact__container__left__title'>Produits de Marc</h3> */}
@@ -15,7 +15,7 @@ const Contact = () => {
                     <p className='contact__container__left__para'>(+33) 6 81 40 69 16</p>
                     <a className='contact__container__left__link' href='mailto:hello@produitsdemarc.com'>hello@produitsdemarc.com</a>
                 </section>
-                <section className='contact__container__right'>
+                {/* <section className='contact__container__right'>
                     <h3 className='contact__container__right__title'>Contactez nous</h3>
                     <form className='contact__container__right__form' action=''>
                         <div className='contact__container__right__form__contact'>
@@ -40,7 +40,7 @@ const Contact = () => {
                                 <button className='contact__container__right__form__condition__btn'>Envoyer</button>
                             </div>
                     </form>
-                </section>
+                </section> */}
             </div>
         </div>
     )

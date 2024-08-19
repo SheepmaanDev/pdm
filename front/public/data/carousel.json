@@ -1,0 +1,20 @@
+[
+    {
+        "id": "01",
+        "name": "First",
+        "img": "/images/carousel/Unicorn.webp",
+        "alt": "Unicorn"
+    },
+    {
+        "id": "02",
+        "name": "Second",
+        "img": "/images/carousel/naturZoom.webp",
+        "alt": "Nature Zoom"
+    },
+    {
+        "id": "03",
+        "name": "Third",
+        "img": "/images/carousel/SacsCollection.webp",
+        "alt": "Sacs Collection"
+    }
+]

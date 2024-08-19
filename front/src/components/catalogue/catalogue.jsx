@@ -1,11 +1,18 @@
-import { catalogueList } from '../../data/catalogue'
+import { useState, useEffect } from 'react'
 
 import './catalogue.sass'
 
 const Catalogue = () => {
+    const [carousel, setCarousel] = useState([])
+    useEffect(() => {
+        fetch('/data/catalogue.json')
+            .then((response) => response.json())
+            .then((data) => setCarousel(data))
+            .catch((error) => console.error('Error fetching data:', error));
+    }, [])
     return (
         <div className='catalogue'>
-            {catalogueList.map((e, index) => (
+            {carousel.map((e) => (
                 <div className='catalogue__card' key={e.id}>
                     <h2 className='catalogue__card__title'>{e.name}</h2>
                     <a href={e.href}>

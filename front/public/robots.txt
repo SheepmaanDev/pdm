@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+# Lien vers le fichier sitemap
+Sitemap: https://pdm.sheepmaan.com/sitemap.xml
