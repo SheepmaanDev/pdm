@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import './carousel.sass'
 
 const Carousel = () => {
+
     const [carousel, setCarousel] = useState([])
     const [currentIndex, setCurrentIndex] = useState(0)
     useEffect(() => {

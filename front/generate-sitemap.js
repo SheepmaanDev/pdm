@@ -2,7 +2,7 @@ const { SitemapStream, streamToPromise } = require('sitemap');
 const { createWriteStream } = require('fs');
 const path = require('path');
 
-const sitemap = new SitemapStream({ hostname: 'https://pdm.sheepmaan.com' });
+const sitemap = new SitemapStream({ hostname: 'https://produitsdemarc.com/' });
 
 const pages = [
   { url: '/', changefreq: 'daily', priority: 1.0 },
