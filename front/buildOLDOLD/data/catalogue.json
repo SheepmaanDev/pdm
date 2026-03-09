@@ -1,0 +1,30 @@
+[
+    {
+        "id": "01",
+        "name": "Catalogue Kids",
+        "img": "/images/catalogue/kids.webp",
+        "href": "https://www.yumpu.com/nl/document/read/70421323/spiegelburg-beautiful-things-for-children-autumn-2025",
+        "alt": "Catalogue kids Spiegelburg autumn 2025"
+    },
+    {
+        "id": "02",
+        "name": "Catalogue Collections",
+        "img": "/images/catalogue/collections.webp",
+        "href": "https://www.yumpu.com/en/document/read/70508242/spiegelburg-collection-beautiful-things-for-adults-autumn-2025",
+        "alt": "Catalogue collections Spiegelburg autumn 2025"
+    },
+    {
+        "id": "03",
+        "name": "Catalogue Christmas",
+        "img": "/images/catalogue/christmas.webp",
+        "href": "https://www.yumpu.com/en/document/read/70459193/spiegelburg-i-christmastime-2025-adults-children",
+        "alt": "Catalogue christmastime Spiegelburg decembre 2025"
+    },
+    {
+        "id": "04",
+        "name": "Catalogue Avent",
+        "img": "/images/catalogue/avent.webp",
+        "href": "https://www.yumpu.com/de/document/read/69328441/coppenrath-advent-calendars-2025",
+        "alt": "Catalogue avent Spiegelburg decembre 2025"
+    }
+]
