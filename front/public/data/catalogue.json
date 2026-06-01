@@ -3,14 +3,14 @@
         "id": "01",
         "name": "Catalogue Kids",
         "img": "/images/catalogue/kids.webp",
-        "href": "https://www.yumpu.com/nl/document/read/70898525/spiegelburg-beautiful-things-for-children-spring-2026",
+        "href": "https://www.yumpu.com/en/document/read/71112082/spiegelburg-beautiful-things-for-children-autumn-2026",
         "alt": "Catalogue Spiegelburg Beautiful things for children Spring 2026"
     },
     {
         "id": "02",
         "name": "Catalogue Collections",
         "img": "/images/catalogue/collections.webp",
-        "href": "https://www.yumpu.com/en/document/read/70898500/spiegelburg-collection-spring-2026",
+        "href": "https://www.yumpu.com/en/document/read/71112051/spiegelburg-collection-i-beautiful-things-for-adults-autumn-2026",
         "alt": "Catalogue collections Spiegelburg Collection Spring 2026"
     },
     {
@@ -22,9 +22,16 @@
     },
     {
         "id": "04",
+        "name": "Catalogue Noel",
+        "img": "/images/catalogue/noel.webp",
+        "href": "https://www.yumpu.com/en/document/read/71112088/spiegelburg-christmastime-2026-adults-children",
+        "alt": "Catalogue Noel Spiegelburg Calendars 2026"
+    },
+    {
+        "id": "05",
         "name": "Catalogue iM Master - Koco",
         "img": "/images/catalogue/iMMasterKoco.webp",
-        "href": "https://www.yumpu.com/fr/document/read/70940894/catalogue-produits-de-marc-immaster-koco/3",
+        "href": "https://www.yumpu.com/fr/document/read/70991149/catalogue-produits-de-marc-immaster-koco",
         "alt": "Catalogue iM.Master / Koco 2026"
     }
 ]
